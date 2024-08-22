@@ -14,5 +14,7 @@
 
 ### Branching Commands
 * 'git branch' - lost of local branches
+* 'git branch branchName' - create local branch 'branchName'
+
 * 'git checkout branchName' - switch to branch 'branchName'
- 
+* 'git checkout -b branchName' - create and switch to branch 'branchName'
