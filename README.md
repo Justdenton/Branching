@@ -31,5 +31,13 @@ Stuff added here in newBranch.
 * 'git push origin branchName' - push current local branch to remote branch 'branchName'
 * 'git pull origin branchName' - pull and merge remote branch 'branchName' with current local branch
 
-newBranch stuff.
-other stuff added in main.
+
+## Workflow:
+1. Pull latest remote main into local main.	`git pull origin main`
+2. Branch from updated local main.	`git checkout -b myBranch`
+3. Work in local branch, committing frequently.
+4. When ready to merge, pull remote `main` into local branch (must commit first) `git pull origin main`
+5. Fix any merge conflicts, then commit.
+6. Push to remote branch. `git push origin myBranch`
+7. Create pull request.
+8. Merge pull request.
