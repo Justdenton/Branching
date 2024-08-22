@@ -8,6 +8,7 @@ Stuff added here in newBranch.
 * `git init` - initialize local git repo in current working directory
 * `git add filename` - stage `filename` for commit
 * `git commit -m msg` - commit stages files into local repo
+* `git clone url` - clone remote repo `url` to local working directory
 
 
 ### Information Commands
