@@ -3,6 +3,9 @@
 Examples of Common Git Commands - Practice dealing with branching and resolving merge conflicts.
 
 
+Stuff added in main branch.
+More main stuff.
+
 ### General Commands
 * `git init` - initialize local git repo in current working directory
 * `git add filename` - stage `filename` for commit
@@ -24,5 +27,8 @@ Examples of Common Git Commands - Practice dealing with branching and resolving 
 
 ### Remote Commands
 * `git remote add alias url` - add new remote `url` with alias `origin`
-* ` git push origin branchName` - push current local branch to remote branch `branchName`
+* `git push origin branchName` - push current local branch to remote branch `branchName`
 * `git pull origin branchName` - pull and merge remote branch `branchName` with current local branch
+
+
+Other stuff added in main.
