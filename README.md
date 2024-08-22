@@ -31,7 +31,6 @@ Stuff added here in newBranch.
 * 'git push origin branchName' - push current local branch to remote branch 'branchName'
 * 'git pull origin branchName' - pull and merge remote branch 'branchName' with current local branch
 
-
 ## Workflow:
 1. Pull latest remote main into local main.	`git pull origin main`
 2. Branch from updated local main.	`git checkout -b myBranch`
