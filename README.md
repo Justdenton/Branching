@@ -27,9 +27,10 @@ Stuff added here in newBranch.
 
 
 ### Remote Commands
-* 'git remote add alias url' - add new remote 'url' with alias 'origin'
-* 'git push origin branchName' - push current local branch to remote branch 'branchName'
-* 'git pull origin branchName' - pull and merge remote branch 'branchName' with current local branch
+* `git remote add alias url` - add new remote `url` with alias `origin`
+* `git push origin branchName` - push current local branch to remote branch `branchName`
+* `git pull origin branchName` - pull and merge remote branch `branchName` with current local branch
+
 
 ## Workflow:
 1. Pull latest remote main into local main.	`git pull origin main`
@@ -40,3 +41,4 @@ Stuff added here in newBranch.
 6. Push to remote branch. `git push origin myBranch`
 7. Create pull request.
 8. Merge pull request.
+
